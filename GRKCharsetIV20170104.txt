@@ -1,131 +1,81 @@
-process
+In this thread I will try to present some thoughts that have been developing for a few years now on the subject of expanding a latin typeface with a Greek set.
+Many articles and threads have been written about the need for expansion in principle which, to be honest, needs no further comment here. What does need discussion is the prioritisation – which typefaces to extend first and how far to extend them.
 
--add greek
-In this thread I would try to present some thoughts that I have for a few years now,
-on the subject of expanding a latin typeface to a Greek set.
-Many articles and threads have been written about to subject 
-which to be honest is almost self proven.
 The popularity of a typeface and the fashions in typography and graphic design
-are one of the main reasons that there are requests for expanding a typeface.
+are one of the main reasons that an expansion can be decided.
 
-Apart from the trends, these expansions can be referred as practical tools, that
-their main purpose is to support a complex text, a not so popular language, 
-even a dead language or a writing system for historical purposes.
+Apart from the trends, these expansions may also be regarded as practical tools, whose function is to support a complex text, less commonly spoken languages, dead languages or writing systems for historical purposes.
 
 
--what is the use of the typeface so we can define the char set
-So to me as a first step, it is always useful to understand and define the purpose
-of the popularity of one font and the possible usage and ability of problem solving 
-that this typeface has.
+-what will be the use of the typeface so we can decide on the char set
+As a first step, it is always useful to understand the possible usage and ability of problem solving that this typeface has. This will mainly help us to define the desired character set that is more suitable for our project.
 
-This will mainly help as to define the desired character set that is more suitable
-for our project.
+Let's be more specific and talk about Greek.
+Greek is a script that supports mainly one language, or, to be more precise, various forms: ancient, katharevousa (a 19th century conception) and
+the demotic. The everyday language, official since 1976, is the demotic. Until 1982, it was written using multiple accents (Polytonic), as are katharevousa and ancient greek.
+But in 1982, by government decree, the polytonic system was abolished from all state institutions, including the educational system, and was replaced by the Monotonic system, which just used the tonos accent.
 
-So let's be more specific and talk about Greek.
-Greek is a script that supports mainly one language or at least one language
-with various forms, ancient, katharevousa(a 19th century conceivement) and
-the demotic. The everyday one and official since 1976, is the demotic one,
-that in its orthography uses only the accent tonos. The other two, still used for 
-scholarly, historical, biblical and archaic text/studies, they require multiple accents and breathings
-for their correct orthography.
-In one word these categories are know as Monotonic and Polytonic Greek.
-
+So broadly we have two categories, monotonic and polytonic.
 
 -proposed charsets
-By the years, I have felt the need to redefine these sets, and this is based on my experience as
-a typeface designer and on the feedback that I had from users. 
-We mention before the variations of the language and now let's see a more analytical usage.
-First of all we have a. modern Greek, simple straight forward monotonic.
-b. we have scholarly text that can be written in Demotic language but with the use of multiple accents and breathings.
-This is something which as weird as it might sound, it happens a lot, especially in literature, poetry and academic essays.
-We have to remember that the polytonic spelling was abolished from the educational system just in 1982,
-so many of todays educators and academics choose to write in this way, even in their handwriting. In the same category belongs the
-support of katharevousa.
-c.we have the biblical texts, ancient and historical, that require a more extended set, one that contains
-archaic numerals and perhaps their variants.
-And lastly d. the support for papyri and archaic texts, that require the archaic variants and possibly the variant letterforms.
+Over the years, I have felt the need to refine these sets, and this is based on my experience as a typeface designer and on the feedback that I had from users. 
+We mentioned before the variations of the language and now let's see a more analytical usage.
 
-The list from there on is almost endless. Depending on the actual text that needs to be typeset,
-the set can be expanded to various historic scripts, from Coptic to Ancient Greek numbers, to Cypriot Syllabary.
-Useful to open and see the character set of fonts like SBL Greek, that apart from the extended set, has custom
-greek numerals, the greek lower case with overbars on  that are used for ancient and medieval manuscripts to denote numerals. 
-(*fun fact the number of the beast is χ̅ξ̅σ̅ ) :)
+First of all we have a) modern Greek, simple straight forward monotonic. Next we have b) scholarly texts that can be written in Demotic language but with the use of multiple accents and breathings. This is something which, as weird as it might sound, still happens a lot, especially in literature, poetry and academic essays. The relatively recent official abolition (1982) of the polytonic system means that many of today's educators and academics choose to write in this way, even in their handwriting. Katharevousa is also covered by the same category. Third comes c) the biblical and ancient texts, that require a more extended set, one that contains archaic numerals and perhaps their variants. And lastly d) support for papyri and archaic texts, that require the archaic variants and possibly the variant letterforms. The list from there on is almost endless. Depending on the actual text that needs to be typeset, the set can be expanded to various historic scripts, from Coptic to Ancient Greek numbers, to Cypriot Syllabary. It is useful to open and see the character set of fonts like SBL Greek, that apart from the extended set, has custom greek numerals, the greek lower case with overbars on  that are used for ancient and medieval manuscripts to denote numerals. 
+*Fun fact the number of the beast (666) is χ̅ξ̅σ̅  :)
 
-to summarise it:
+to summarise:
 a. support of modern Greek
 b. support for scholarly Greek
 c. biblical/ancient-historical
 d. archaic, papyri
 
-which translates to:
+which in typographic terms translates to:
 a. monotonic
 b. basic Polytonic
 c. extended Polytonic
-d. archaic (maybe +14 coptic for compatibility purposes that belong to the "Greek-Coptic" Unicode block)
+d. archaic (maybe +14 coptic for compatibility purposes that belong to the “Greek-Coptic” Unicode block)
 
-As I mentioned in the beginning I felt the need to redefine these sets and in order to do that, I'll go one by one to explain
-my additions to them.
+As I mentioned in the beginning I felt the need to redefine these sets and in order to do that, I'll go one by one to explain my additions to them.
 
 a. Monotonic (Demotic Greek)
 USE: Everyday modern Greek in newspapers, books and websites. Mandatory in schools.
 
-Usually this set is contains the lower case, the uppercase, the tonos accent, the dieresis,
-dieresistonos and the greek question mark, identical to the semicolon.
-In this set is always useful to add the “anoteleia”, the greek semicolon,
-and the two forms of “keraia”, the greek numeric signs. 
-We rarely see these signs as part of the monotonic set, and it's a shame, because they have an everyday use.
-When they are combined with lower case letters, indicate numbers and they are used mainly as ordinals, especially denoting book volumes, academic semesters etc.
+Usually this set contains the lower case, the uppercase, the tonos accent, the dieresis, dieresistonos and the greek question mark, identical to the semicolon. In this set it is always useful to add the “anoteleia”, the greek semicolon, and the two forms of “keraia”, the greek numeric signs. We rarely see these signs as part of the monotonic set, and it’s a shame, because they have an everyday use. When they are combined with lower case letters, they indicate numbers and they are used mainly as ordinals, especially denoting book volumes, academic semesters etc.
 https://en.wikipedia.org/wiki/Greek_numerals#Table
 https://en.wikipedia.org/wiki/Greek_numerals#Description
 
-Another addition to the monotonic set that I would like to suggest is the greek ampersand.
-We usually we'll find in older publications and on old handmade signage, but in my opinion it keeps some charm of old times and it could easily be used in titles/display settings.
-ϗ greek kai symbol(ampersand) 03D7
+Another addition to the monotonic set that I would like to suggest is the greek ampersand. We often find it in older publications and on old handmade signage, but in my opinion it keeps some charm of old times and it could easily be used in titles/display settings.
 https://en.wikipedia.org/wiki/Kai_(conjunction)
-Since unicode 5.1, an uppercase form of that symbols has been added, to match better an all caps setting (03CF).
+Since Unicode 5.1, an uppercase form of that symbol has been added, to match better an all caps setting (03CF).
 
 
 At the end of this post I have included appendices that show these sets in detail.
 
-b. basic Polytonic(Demotic with breathings, Katharevousa)
+b. Basic Polytonic (Demotic with breathings, Katharevousa)
 USE: Modern Greek in books and particularly traditional or religious publications.
 
-This set contains all the accented letters, lower case and upper case, and the accents+breathings necessary to build these composites. It's basically what Unicode defines as “extended Greek” with the addition of forgotten iota subscript(uni037A).
+This set adds all the accented letters, lower case and upper case, and the accents+breathings necessary to build these composites. It's basically what Unicode defines as “Greek Extended” with the addition of forgotten iota subscript (uni037A).
+http://www.unicode.org/charts/PDF/U1F00.pdf
 
 In this category I avoid adding the archaic numerals. The reason I'm doing that is this:
-The specific archaic numerals, even if they aren't many, require on behalf of the designer 
-special attention and research. These numerals are rarely used and most of the designers don't even know how to typeset them, 
-hence the existing examples of these characters are most of the times really poorly designed. 
+The specific archaic numerals, even if they aren't many, require special attention and research on behalf of the designer. These numerals are rarely used and most of the designers don't even know how to typeset them, hence the existing examples of these characters are, most of the time, really poorly designed. 
 
-My approach might appear a bit unorthodox but the main reason I propose to avoid adding these numerals to our basic Polytonic set
-is primarily because I want to promote the expansion of Greek character sets to Polytonic, since it can be done almost instantly and 
-mainly because it's going to give the chance to the polytonic users to typeset their text with typefaces a bit more modern looking than Didot.
-(fun fact, I'm not personally a user of the polytonic orthography)
-And these extra characters are going to be either badly designed or they will be an excuse to holdback and delay the entire expansion.
-Of course these numerals can be added any time that are needed, in a second stage of the expansion.
+My approach might appear a bit unorthodox but the main reason I propose to avoid adding these numerals to our basic Polytonic set is primarily because I want to promote the expansion of Greek character sets to Polytonic. Adding polytonic to a pre-existing greek set can be done almost entirely by the use of composites. Speeding up the process of creating polytonic greek fonts will give polytonic users the chance to typeset their text with a much wider variety of typefaces, and hopefully many a bit more modern looking than Didot :)
+*Fun fact, I'm not personally a fan or a user of the polytonic orthography!
 
-c. extended Polytonic(Katharevousa, Ancient)
+c. Extended Polytonic (Katharevousa, Ancient)
 USE: Scholarly and religious texts, textbooks for ancient greek studies
 
-This set would be the “traditional” polytonic set, the one that contains the archaic numerals and it's meant to be used
-for more advanced and specialised applications than the previous category.
+This set would contain the “traditional” polytonic set, including the archaic numerals.
 
-d. archaic, papyri Scholarly Greek + Ancient Greek
+d. Archaic, papyri
 USE: Ancient texts, including archaic set and variable letterforms
 
-This set includes the remaining Greek letterforms and numerals that the “Greek-Coptic” block in Unicode includes;
-these are the archaic variants and the variant letterform symbols.
+This set includes the remaining Greek letterforms and numerals that the “Greek-Coptic” block in Unicode includes; these are the archaic variants and the variant letterform symbols.
 
-note on Coptic
-Seven lower case and their respective uppercase letterforms of the Coptic script are part of the “Greek-Coptic” Unicode Block,
-since version 1.1.
-The similarity and the historical connections of the two scripts lead to shared codes in Unicode, 
-which leads sometimes to  misunderstanding  of which is Greek which is Coptic, and if these 14 Coptic characters
-need to be part of an extended Greek character set.
-In my opinion the need of Coptic set needs to be separately decided and executed. 
-Coptic is a language that is used only for liturgical language in the Coptic church thus a more traditional set was in order.
-In 2005 unicode version 4.1, devoted an separate block for the coptic set(2C80-2CFF). This set doesn't include the 14 glyphs of the
-“Greek-Coptic” one, but they should be treated like a homogenic design.
+A note on Coptic
+Seven lower case and their respective uppercase letterforms of the Coptic script have been part of the “Greek-Coptic” Unicode block since version 1.1. The similarity and the historical connections of the two scripts led to shared codes in Unicode, which leads sometimes to misunderstanding of which characters are necessary for typesetting Greek. In my opinion the need of a Coptic set must be separately decided and executed. Coptic is a language that is used only for liturgical language in the Coptic church thus a more “Byzantine-looking” set was in order. In 2005 Unicode version 4.1, devoted a separate block for the Coptic set (2C80-2CFF). So a full Coptic set requires 2C80-2CFF as well as the 14 characters inside the “Greek-Coptic” block (03E2-03EF), all treated as a homogenous design.
 
 
 
